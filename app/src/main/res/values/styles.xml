@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Configurações do tema aqui -->
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Configurações do tema de sobreposição de pop-up aqui -->
+    </style>
+
+    <style name="TituloConfiguracoes">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <!-- Outros atributos de estilo que você desejar -->
+    </style>
+
+    <style name="TituloPerfilUsuario">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

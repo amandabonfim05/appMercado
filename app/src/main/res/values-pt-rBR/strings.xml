@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pagina Inicial</string>
+    <string name="creditos">Créditos</string>
+    <string name="monitoramento">Monitorar</string>
+    <string name="seta_de_voltar">Seta de Voltar</string>
+    <string name="informa_es_do_cabe_alho">Informação de Cabeçalho</string>
+    <string name="obter">Obter</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="caminhada">Caminhada</string>
+    <string name="corrida">Corrida</string>
+    <string name="bicicleta">Bicicleta</string>
+    <string name="unidade_de_velocidade">Unidade de Velocidade</string>
+    <string name="km_h_quilometro_por_hora">km/h (quiômetros por hora)</string>
+    <string name="m_s_metros_por_segundo">m/s (metros por segundo)</string>
+    <string name="orienta_o_do_mapa">Orientação do mapa</string>
+    <string name="nenhuma_manual">Nenhuma(Manual)</string>
+    <string name="north_up">Ao Norte</string>
+    <string name="course_up">Course Up</string>
+    <string name="tipo_do_mapa">Tipo de Mapa</string>
+    <string name="vetorial">Vetor</string>
+    <string name="sat_lite">Satélite</string>
+    <string name="monitorar_exerc_cio">Monitoramento de Exercício</string>
+    <string name="perfil_do_usu_rio">Perfil do Usuário</string>
+    <string name="sexo">Gênero</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="peso_kg">Peso (Kg):</string>
+    <string name="altura_cm">Altura (cm)</string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="dd_mm_aaaa">DD/MM/AAAA</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="voltar">Voltar</string>
+    <string name="configura_es">Configurações</string>
+    <string name="tipo_de_exerc_cio">Tipo de Execícios:</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude:</string>
+    <string name="velocity">Velocidade:</string>
+    <string name="speed_unit">Unidade De Velocidade:</string>
+    <string name="save_settings">Salvar Configuração</string>
+    <string name="speed_unit_kmh">km/h</string>
+    <string name="registered_trails">Trilhas Registradas</string>
+    <string name="delete_button">Excluir</string>
+</resources>

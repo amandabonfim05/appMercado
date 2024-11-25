@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Home Page</string>
+    <string name="creditos">Credits</string>
+    <string name="monitoramento">Monitoring</string>
+    <string name="seta_de_voltar">Back Arrow</string>
+    <string name="informa_es_do_cabe_alho">Header Information</string>
+    <string name="obter">Get</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="caminhada">Walking</string>
+    <string name="corrida">Running</string>
+    <string name="bicicleta">Bicycling</string>
+    <string name="unidade_de_velocidade">Speed Unit:</string>
+    <string name="km_h_quilometro_por_hora">km/h (kilometer per hour)</string>
+    <string name="m_s_metros_por_segundo">m/s (meters per second)</string>
+    <string name="orienta_o_do_mapa">Map Orientation:</string>
+    <string name="nenhuma_manual">None (Manual)</string>
+    <string name="north_up">North Up</string>
+    <string name="course_up">Course Up</string>
+    <string name="tipo_do_mapa">Map Type:</string>
+    <string name="vetorial">Vector</string>
+    <string name="sat_lite">Satellite</string>
+    <string name="monitorar_exerc_cio">Monitor Exercise</string>
+    <string name="perfil_do_usu_rio">User Profile</string>
+    <string name="sexo">Gender:</string>
+    <string name="masculino">Male</string>
+    <string name="feminino">Female</string>
+    <string name="peso_kg">Weight (kg):</string>
+    <string name="altura_cm">Height (cm):</string>
+    <string name="data_de_nascimento">Date of Birth:</string>
+    <string name="dd_mm_aaaa">DD/MM/YYYY</string>
+    <string name="cadastrar">Register</string>
+    <string name="voltar">Back</string>
+    <string name="configura_es">Settings</string>
+    <string name="tipo_de_exerc_cio">Exercise Type:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="velocity">Velocity:</string>
+    <string name="speed_unit">m/s</string>
+    <string name="speed_unit_kmh">km/h</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="registered_trails">Registered Trails</string>
+    <string name="delete_button">Delete</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <!-- Toolbar com ícone de perfil (canto superior esquerdo) -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0000ff"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/imageViewPerfil"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:contentDescription="Perfil"
+            android:focusable="true"
+            android:src="@drawable/iconeperfil" />
+
+        <ImageView
+            android:id="@+id/imageViewEngrenagem"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Engrenagem"
+            android:src="@drawable/iconeconfig" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Novo Botão Descrição -->
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="345dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#0000ff"
+        android:text="@string/monitorar_exerc_cio"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTrails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/buttonDescription"
+        android:layout_width="137dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000ff"
+        android:text="@string/creditos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTrails"
+        android:layout_width="163dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000ff"
+        android:text="@string/registered_trails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
